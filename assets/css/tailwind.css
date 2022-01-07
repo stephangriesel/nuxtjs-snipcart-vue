@@ -1,0 +1,22 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3 {
+    @apply text-xl font-semibold font-mono;
+}
+
+.markdown a {
+    @apply underline text-blue-400;
+}
+
+/* Snipcart overrides */
+
+.snipcart-layout {
+    background:transparent;
+}
+
+.snipcart-button-primary {
+    background:black;
+}
